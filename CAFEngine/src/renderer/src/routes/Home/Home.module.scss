@@ -1,0 +1,60 @@
+@import '../../styles/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap');
+
+$font: "Archivo Narrow", sans-serif;
+
+.ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+    gap: 30px;
+}
+
+.firstLi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.firstLi p{
+    color: $branco;
+    font-size: 25px;
+}
+
+.li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: $dark-sec;
+    height: 3rem;
+    padding: 20px;
+    transition: 0.2s ease;
+    width: 4rem;
+}
+
+.li p{
+    color: $branco;
+    transition: 0.2s ease;
+}
+
+.li:hover{
+    height: 4rem;
+}
+
+.li:hover p {
+    color: $primary !important;
+}
+
+.iconGame{
+    width: 40px;
+    height: 40px;
+    transition: 0.2s ease;
+    border-radius: 50%;
+}
+
+.li:hover .iconGame{
+    width: 60px;
+    height: 60px;
+}

@@ -1,0 +1,109 @@
+@import '../../styles/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap');
+
+$font: "Archivo Narrow", sans-serif;
+
+.containerLog{
+    background-color: $dark-sec;
+    border-radius: 4px;
+    display: flex;
+    padding: 60px;
+    flex-direction: column;
+    font-family: $font;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    width: 50%;
+}
+
+.containerInit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.containerInit .boasVindas {
+    font-weight: 700;
+    color: $branco;
+
+}
+
+.secondContainer{
+    display: flex;
+    margin-top: 10px;
+}
+
+.secondText{
+    margin-right: 6px;
+    color: $cinza;
+}
+
+.redText{
+    color: $secondary;
+}
+
+.containerInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start !important;
+    margin-top: 20px;
+}
+
+.containerInputs p{
+    font-weight: 700;
+    font-size: 11px;
+    color: $cinza;
+    text-transform: uppercase;
+}
+
+.btnLog{
+    display: flex;
+    background-color: $primary;
+    width: 15vh;
+    height: 5vh;
+    border: 0;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btnLog:hover{
+    background-color: $secondary !important;
+}
+
+.inputLog{
+    width: 100%;
+    background-color: $dark-pri;
+    outline: none;
+    border: 0;
+    color: $branco;
+    height: 5vh;
+    border-radius: 3px;
+}
+
+.link{
+    color: $secondary;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: $primary;
+}
+
+.dflex{
+    display: flex;
+}
+
+.asterisco{
+    color: $secondary !important;
+    margin-left: 6px;
+}
